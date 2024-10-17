@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#game-container {
+    width: 800px;
+    padding: 30px;
+    background-color: white;
+    border: 5px solid #f44336;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffeb3b, #ff5722);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#uno-logo {
+    width: 200px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #e91e63;
+    text-shadow: 2px 2px 0px #333;
+}
+
+#player-hand, #computer-hand {
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px;
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px #000;
+}
+
+button:hover {
+    background-color: #f57c00;
+}
+
+#hand-cards-player, #hand-cards-computer, #top-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    width: 80px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+}
+
+.card.red {
+    background-color: #e53935;
+}
+
+.card.blue {
+    background-color: #1e88e5;
+}
+
+.card.green {
+    background-color: #43a047;
+}
+
+.card.yellow {
+    background-color: #fdd835;
+}
+
+#color-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#color-selection button {
+    margin: 0 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #fff;
+}
