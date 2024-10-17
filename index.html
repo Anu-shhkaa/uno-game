@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNO Game - Player vs Computer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <img src="uno-logo.png" alt="UNO Logo" id="uno-logo">
+        </header>
+
+        <h1>UNO Game - Player vs Computer</h1>
+
+        <!-- Top Card (played card stack) -->
+        <div id="played-card">
+            <h2>Top Card</h2>
+            <div id="top-card"></div>
+        </div>
+
+        <!-- Player's Hand -->
+        <div id="player-hand">
+            <h2>Your Hand</h2>
+            <div id="hand-cards-player"></div>
+        </div>
+
+        <!-- Computer's Hand (Hidden) -->
+        <div id="computer-hand">
+            <h2>Computer's Hand</h2>
+            <div id="hand-cards-computer"></div>
+        </div>
+
+        <!-- Draw and Play Buttons -->
+        <div id="controls">
+            <button id="draw-btn">Draw Card</button>
+            <button id="play-card-btn">Play Card</button>
+        </div>
+
+        <!-- Message -->
+        <div id="game-message"></div>
+    </div>
+
+    <footer>
+        <p>© 2024 UNO Game</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
