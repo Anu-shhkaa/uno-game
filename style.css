@@ -22,14 +22,14 @@ body {
     background-image: linear-gradient(to bottom, #ffeb3b, #ff5722);
 }
 
-header {
+/*header {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-}
+}*/
 
 #uno-logo {
-    width: 200px;
+    width: 50px;
 }
 
 h1 {
@@ -111,9 +111,14 @@ button:hover {
     cursor: pointer;
     font-weight: bold;
 }
-
+#game-image img {
+    width: 25%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 footer {
     margin-top: 40px;
     font-size: 16px;
-    color: #fff;
+    color: #0c0202;
 }
