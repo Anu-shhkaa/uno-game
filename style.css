@@ -112,7 +112,7 @@ button:hover {
     font-weight: bold;
 }
 #game-image img {
-    width: 25%;
+    width: 10%;
     margin-top: 30px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
