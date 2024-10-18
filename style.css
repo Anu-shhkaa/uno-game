@@ -36,7 +36,7 @@ header {
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }*/
-.navbar {
+/*.navbar {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -57,7 +57,7 @@ header {
 
 .navbar a:hover {
     background-color: #005f8d;
-}
+}*/
 #uno-logo {
     width: 50px;
 }
