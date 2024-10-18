@@ -22,19 +22,20 @@ body {
     background-image: linear-gradient(to bottom, #ffeb3b, #ff5722);
 }
 
-/*header {
+header {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
-}*/
-header {
+}
+
+/*header {
     position: sticky;
     top: 0;
-    z-index: 10; /* Ensures it stays above other content */
-   /* background-color: white; /* Set a background color to avoid transparency issues */
-    padding: 10px; /* Add some padding for aesthetics */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visibility */
-}
+    z-index: 10; 
+  
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}*/
 .navbar {
     list-style-type: none;
     padding: 0;
